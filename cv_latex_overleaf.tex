@@ -1,0 +1,293 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,roma]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Sakshamdeep} % Your first name
+\familyname{Singh} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+
+\address{}{Buffalo, NY}
+\mobile{+1 (716) 303-9262}
+\email{ssingh86@buffalo.edu}
+% \homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+% \photo[80pt][0.1pt]{pictures/linkedin-img} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \photo[70pt][0.4pt]{pictures/linkedin-img} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-2] % Dummy text
+% \lipsum[4] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+% \newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{Aug, 2022 -- Dec, 2023}{M.S., Artificial Intelligence}{University at Buffalo}{Buffalo, NY}{}{}  % Arguments not required can be left empty
+\cventry{2015 -- 2019}{B.E.(Hons.) Electronics and Instrumentation}{BITS Pilani}{Pilani, IN}{\textit{GPA -- 5.9/10.0}}{}
+\cventry{2015}{Class 12}{JP World School}{Jammu, India}{\textit{Percentage -- \textbf{91.8/100}}}{\textbf{School Rank 1}}
+\cventry{2013}{Class 10}{Army Public School Kaluchak}{Jammu, India}{\textit{GPA -- \textbf{10.0/10.0}}}{}
+
+% \section{Masters Thesis}
+
+% \cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+% \cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+% \cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\cventry{2019 -- 2022}{Project Engineer}{\textsc{Wipro Limited}}{Bengaluru, India}{}{
+	% \newline{}\newline{}
+	Cisco Kinetic Cities project:
+	\begin{itemize}
+		\item An IOT smart cities project in which I was mainly responsible for \textbf{Java Back-end Development}
+		\item Mainly focused around modern application development including \textbf{micro-services architecture}, \textbf{distributed computing} and \textbf{low latency messaging applications}
+		\item Hands-on experience in working with technologies like Java, Springboot, Python Scripting, PostgreSQL, Elasticsearch, MongoDB, Kafka, WSO2, Bitbucket, JIRA, Jenkins, SonarQube and Linux Servers
+	\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{July, 2018 -- Dec, 2019}{Software Intern}{\textsc{UST Global}}{Trivandrum, India}{}{
+	\begin{itemize}
+		\item Successfully developed \textbf{REST APIs} using SpringBoot
+		\item As a part of the Sentiment Analysis Team, helped in data extraction from Facebook
+		      and Twitter, and learned to \textbf{analyze sentiments} using various approaches
+	\end{itemize}
+}
+%------------------------------------------------
+
+\cventry{May, 2017 -- July, 2017}{Research Intern}{\textsc{Ultratech Limited}}{Reddipalayam, India}{}{
+	\begin{itemize}
+		\item Ran first-hand study of the industrial cement manufacturing plant and covered processes, applications and automation tools used in the end to end process
+	\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	 Volunteer Experience
+%----------------------------------------------------------------------------------------
+
+\section{Volunteer Experience}
+
+\cventry{Jan, 2016 -- Sept, 2016}{Student Mentor}{\textsc{National Service Scheme}}{BITS Pilani, India}{}{
+	\begin{itemize}
+		\item NSS helps in providing hands-on experience to young students in delivering \textbf{community service}.
+	\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\cvitem{Languages}{Java, Python, JavaScript, SQL, R}
+\cvitem{Frameworks}{SpringBoot, Vertx, PyTorch, Keras, TensorFlow, NumPy, Pandas, Scikit-Learn}
+\cvitem{Databases}{PostgreSQL, MongoDB, ElasticSearch, Apache Kafka, RabbitMQ}
+\cvitem{Soft Skills}{Problem Solving, Empathy, Adaptability, Flexibility, Work Ethic}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Academic Projects
+%----------------------------------------------------------------------------------------
+
+\section{Academic Projects}
+
+\cventry{2019}{Research Paper Implementation}{\textsc{Python + PyTorch}}{}{}{
+	\begin{itemize}
+		\item Implemented the following IEEE paper as part of the the NNFL course project.
+		\item ”Facial Expression Recognition Using Weighted Mixture Deep Neural Network
+		      Based on Double-Channel Facial Images”.
+	\end{itemize}
+}
+
+\cventry{2019}{Created fake images using GAN'S}{\textsc{Python + PyTorch}}{}{}{
+	\begin{itemize}
+		\item Implemented and trained GAN's model on CIFAR-10 data set to create a set of fake images.
+	\end{itemize}
+}
+
+\cventry{2018}{Vehicle Detection with YOLO V2}{\textsc{Python + Keras}}{}{}{
+	\begin{itemize}
+		\item Implemented a YOLO model for car detection using data set provided by drive.ai.
+	\end{itemize}
+}
+
+\cventry{2018}{Emojifier}{\textsc{Python + Tensorflow}}{}{}{
+	\begin{itemize}
+		\item Built two emojifiers that map sentences to appropriate emojis using word
+		      embedding and LSTM.
+	\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards \& Achievements}
+
+
+\cventry{2020}{Best Performer}{\textsc{Wipro}}{}{}{
+	\begin{itemize}
+		\item Awarded at the end of the project, CKC 5.0, for Cisco client.
+	\end{itemize}
+}
+
+\cventry{2014}{Silver Medal}{\textsc{International Mathematics Olympiad}}{}{}{
+	\begin{itemize}
+		\item Secured School Rank 2 in International Mathematics Olympiad organized by SOF.
+	\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\section{Test Scores}
+
+\cventry{2021}{326/340}{\textsc{GRE}}{}{}{
+	\begin{itemize}
+		\item Q:170 | V:156 | AWA: 4
+	\end{itemize}
+}
+
+\cventry{2021}{109/120}{\textsc{TOEFL iBT}}{}{}{
+	\begin{itemize}
+		\item R: 30 | L: 30 | S: 23 | W: 26
+	\end{itemize}
+}
+
+\cventry{2015}{99.39 percentile}{\textsc{JEE Advanced}}{AIR - 7866}{}{
+	\begin{itemize}
+		\item Ranked 7866 in the country from amongst 1.3 million candidates in JEE Advanced (previously IIT-JEE), regarded by many as one of the most difficult examinations worldwide.
+	\end{itemize}
+}
+
+\cventry{2015}{99.45 percentile}{\textsc{JEE Mains}}{AIR - 7071}{}{
+	\begin{itemize}
+		\item Ranked 7071 in the country from amongst 1.3 million candidates in JEE Mains (previously AIEEE)
+	\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	Courses SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Relevant Courses}
+
+\cvitem{Computer Science}{C Programming, Object Oriented Programming, Operating Systems}
+\cvitem{Mathematics}{Mathematics I, II, III, Probability and Statistics, Number Theory}
+\cvitem{Online Courses}{Machine Learning, Deep Learning Specialization, The Analytics Edge}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{English}{Expert}{}
+\cvitemwithcomment{Hindi}{Expert}{}
+\cvitemwithcomment{Punjabi}{Mother tongue}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests \& Hobbies}
+
+\cvitem{Books}{Biographies, Memoirs, Historical, Philosophy, Space}
+\cvitem{Sports}{Table Tennis, Soccer, Volleyball, Gym, Cycling, Swimming, Running}
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{References}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{\textbf{Vinoth Nataranjan},\\ Engineering Leader, Wipro, \\ Email: vinoth.natarajan@gmail.com}
+{\textbf{Rekha Karegoud}, \\Techinal Lead, Wipro,\\ Email: rekha.r15@wipro.com}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
