@@ -1,0 +1,242 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PlushCV - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (11/28/2021)
+%
+% Author:
+% Shubham Mazumder (http://mazumder.me)
+%
+% Hacked together from:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add more icon options 
+% 4. Fix hacky left alignment on contact line
+% 5. Remove Hacky fix for awkward extra vertical space
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the vertical limit.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Icons:
+%%Main: https://icons8.com/icons/carbon-copy
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{plushcv}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Sakshamdeep}{Singh}{Software Development Engineer}
+{\contactline
+{\href{}{}}
+{\href{https://www.github.com/sakshamsds}{sakshamsds}}
+{\href{https://www.linkedin.com/in/sakshamdeep-singh/}{sakshamdeep-singh}}
+{\href{mailto:ssingh86@buffalo.edu}{ssingh86@buffalo.edu}}
+{\href{tel:+17163039262}{+1(716)303-9262}}}
+
+% \namesection{Firstname}{Lastname}{Full Stack Software Engineer}{\contactline{\href{https://www.mazumder.me}{mazumder.me}}{\href{https://www.github.com/sansquoi}{sansquoi}}{\href{https://www.linkedin.com/mazumders}{mazumders}}{\href{mailto:shubham.mazumder@gmail.com}{first.last@email.com}}{\href{tel:+1999999999}{9999999999}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.70\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Wipro Limited}
+\descript{| Senior Project Engineer}
+\location{July 2019 – Aug 2022 | Bengaluru, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\sectionsep
+\item Worked on Cisco Kinetic Cities. An IoT smart cities project in which I work as Java backend developer. 
+\item Main focus was on modern application development including microservices architecture, distributed computing and low latency messaging applications.
+\item Hands-on experience in working on technologies such as Java, Springboot, Python, PostgreSQL, Elasticsearch, Kafka, WSO2, Linux servers.  
+\end{tightemize}
+\sectionsep
+
+\runsubsection{UST Global}
+\descript{| Software Development Intern }
+\location{July 2018 – December 2018 | Trivandrum, India}
+\begin{tightemize}
+\sectionsep
+\item Successfully developed REST APIs using SpringBoot. 
+\item  As a part of the Sentiment Analysis Team, helped in data extraction from facebook and twitter, and learned to analyze sentiments using various approaches.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ultratech Limited}
+\descript{| Research Intern }
+\location{May 2017 – July 2017 | Reddipalayam, India}
+\begin{tightemize}
+\sectionsep
+\item Ran first-hand study of the industrial cement manufacturing plant and covered processes, applications and automation tools used in the end to end process.
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Research Paper Implementation}
+\descript{| Python + PyTorch}
+\location{March 2019 - April 2019}
+\begin{tightemize}
+\item Implemented the following IEEE paper as part of the the NNFL course project. "Facial Expression Recognition Using Weighted Mixture Deep Neural Network Based on Double-Channel Facial Images"
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Created fake images using GAN's}
+\descript{| Python + PyTorch}
+\location{July 2019}
+\begin{tightemize}
+\item Created a set of fake images by implementing GAN's model trained on CIFAR-10 image dataset.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Vehicle detection with YOLOv2}
+\descript{| Python + Keras}
+\location{Nov 2018}
+\begin{tightemize}
+\item Implemented a YOLO model for car detection using dataset provided by drive.ai.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Emojifier}
+\descript{| Python + Tensorflow}
+\location{Oct 2018}
+\begin{tightemize}
+\item Built two emojifiers that map sentences to appropriate emojis using word embeddings and LSTM.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \section{Awards \& Achievements} 
+ \begin{tabular}{rll}
+  2020	     & Best Performer, Wipro & Awarded at the end of CKC 5.0 project cycle\\
+ 2015	     & 99.45 percentile  & JEE Mains, among 1.3 million candidates\\
+ 2014	     & Silver Medal  & Mathematics Olympiad, School Rank, $2^{nd}$ \\
+ \\
+ \end{tabular}
+ \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.25\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Languages}
+\sectionsep
+Java \textbullet{} Python \textbullet{} SQL \textbullet{} R \textbullet{} JS\\
+\sectionsep
+\sectionsep
+
+\subsection{Databases/Pipelines}
+\sectionsep
+PostgreSQL \textbullet{} MongoDB \textbullet{} ElasticSearch \textbullet{} Apache Kafka \textbullet{} RabbitMQ \\
+\sectionsep
+\sectionsep
+
+\subsection{Frameworks/Libraries}
+\sectionsep
+SpringBoot \textbullet{} PyTorch \textbullet{} Keras \textbullet{} Tensorflow \textbullet{} Numpy \textbullet{} Pandas \textbullet{} Scikit-Learn\\
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{University at Buffalo}
+\descript{MS Artificial Intelligence}
+\location{Aug 2022 - Dec 2023 | Buffalo, NY}
+\sectionsep
+
+\subsection{BITS Pilani}
+\descript{B.E.(Hons.) Electronics and Instrumentation}
+\location{Aug 2015 - May 2019 | Pilani, India}
+\location{ Cum. GPA: 5.92 / 10.0 }
+\sectionsep
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     REFERENCES
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \section{Coursework}
+
+ \subsection{Computer Science}
+ C Programming \textbullet{}\\ 
+ Object Oriented Programming \textbullet{}\\ 
+ Operating Systems 
+ \sectionsep
+
+ \subsection{Mathematics}
+ Mathematics I, II, III \textbullet{}\\
+ Probability and Statistics \textbullet{}\\
+ Number Theory
+  \sectionsep
+ 
+ \subsection{Online Courses}
+ Machine Learning \textbullet{}\\ 
+ Deep Learning Specialization \textbullet{}\\ 
+ The Analytics Edge 
+   \sectionsep
+
+ 
+\section{Extracurricular}
+ \subsection{Student Mentor, NSS}
+ NSS helps in providing hands-on experience to young students in delivering community service.
+ 
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
+
